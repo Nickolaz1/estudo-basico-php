@@ -16,7 +16,7 @@
         if(isset($_COOKIE['user']))
         {
             $cookie = $_COOKIE['user'];
-            echo $cookie;
+            echo "<h1> Seja bem vindo {$cookie} </h1>";
         }
         
     ?>
